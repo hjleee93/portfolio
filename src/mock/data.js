@@ -20,7 +20,8 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: '',
+  github: 'https://github.com/hjleee93',
+  blog: 'https://hjleee93.github.io/',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
