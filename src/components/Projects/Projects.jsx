@@ -41,7 +41,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'ITJOBGO'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'projectTitle'}</h3>
                       <div>
                         <p>
                           {info ||
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        DETAIL
                       </a>
 
                       {repo && (

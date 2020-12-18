@@ -7,7 +7,7 @@ const Header = () => {
   const { about } = useContext(PortfolioContext);
   const { blog, github } = about;
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="text-center">
       <Navbar.Brand href="#home">HJ</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
