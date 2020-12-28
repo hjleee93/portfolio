@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import './Header.scss';
 
@@ -7,17 +7,18 @@ const Header = () => {
   const { about } = useContext(PortfolioContext);
   const { blog, github } = about;
   return (
-    <Navbar bg="light" expand="lg" className="text-center">
-      <Navbar.Brand href="#home">HJ</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href={blog}>Blog</Nav.Link>
-          <Nav.Link href={github}>Github</Nav.Link>
-          <Nav.Link href="#link">Project</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <Container>
+      <Navbar bg="light" expand="lg" className="text-center">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href={blog}>BLOG</Nav.Link>
+            <Nav.Link href={github}>GITHUB</Nav.Link>
+            <Nav.Link href="#link">PROJECTS</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Container>
   );
 };
 export default Header;

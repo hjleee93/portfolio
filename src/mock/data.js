@@ -33,7 +33,8 @@ export const projectsData = [
       '파트너로 가입한 회원들은 직접 서비스를 제공하는 업체를 등록하거나 예약을 만들 수 있고' +
       '등록된 업체는 관리자가 관리하며 전반적인 사이트 관리 할 수 있습니다' +
       '일반회원은 원하는 지역, 날짜, 키워드로 검색하여 바로 예약 할 수 있는 예약관리사이트입니다.',
-    info2: '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다.',
+    info2: '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다. ',
+    info3: 'Source Code버튼 클릭시 해당 깃헙으로 연결됩니다',
     url: 'http://rclass.iptime.org:9999/20AM_HYOLO/',
     repo: 'https://github.com/hjleee93/semiProject',
   },
@@ -44,26 +45,19 @@ export const projectsData = [
     info:
       '다양한 기능의 IT전문 종합 구직사이트를 구현하고자 하였습니다. 구인구직 정보 제공, 프로젝트(포트폴리오) 협업 매칭 공간 제공, 전문 컨설턴트를 통한 이력서첨삭,  기술질의응답' +
       '기능들을 구성하여 구직자의 편의성을 높였습니다.',
-    info2: '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다.',
-    url: '',
+    info2:
+      '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다. (배포용 사이트는 현재 수정중입니다.)',
+    info3: 'Source Code버튼 클릭시 해당 깃헙으로 연결됩니다',
+    url: 'http://rclass.iptime.org:9999/20AM_ITJOBGO_BOOT_FINAL/',
     repo: 'https://github.com/hjleee93/FinalProject_Front',
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: '제 포트폴리오를 끝까지 봐주셔서 감사합니다😀',
   btn: '',
-  email: '',
+  email: 'hjleee93@gmail.com',
 };
 
 // FOOTER DATA
@@ -87,12 +81,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hjleee93',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

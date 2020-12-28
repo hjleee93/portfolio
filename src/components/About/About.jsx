@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, resume, blog } = about;
+  const { img, github, blog } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -51,15 +51,15 @@ const About = () => {
                   공부내용을 지속적으로 블로그에 업데이트 중입니다
                 </p>
                 <div>
-                  {resume && (
+                  {github && (
                     <span>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--resume"
-                        href={resume}
+                        href={github}
                       >
-                        Resume
+                        GITHUB
                       </a>
                     </span>
                   )}

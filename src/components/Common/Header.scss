@@ -9,3 +9,16 @@ nav {
   left: 0;
   z-index: 99;
 }
+#basic-navbar-nav {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav {
+  width: 35%;
+  margin: 0 auto !important;
+  justify-content: space-between;
+}

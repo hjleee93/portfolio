@@ -7,6 +7,7 @@ import Footer from './Common/Footer';
 import Header from './Common/Header';
 
 import { PortfolioProvider } from '../context/context';
+// import { BrowserRouter, Route } from 'react-router-dom'; // 리액트 라우터 추가
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 

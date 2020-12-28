@@ -7,7 +7,11 @@
   margin-bottom: -1px;
   color: $white-color;
   font-family: 'Noto Sans KR', sans-serif;
-
+  p,
+  a {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size: $default-font-size;
+  }
   @include respond(tab-land) {
     padding: 10rem 0;
     clip-path: none;
