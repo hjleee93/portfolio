@@ -2,9 +2,9 @@ import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 
-import Title from  '../Title/Title';
-import imgfile from '../../images/main1.jpg';
-
+import Title from '../Title/Title';
+import SwiperImg from '../Image/SwiperImg';
+import PortfolioContext from '../../context/context';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,6 +18,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const Hyolo = () => {
     
+  const { hyolo } = useContext(PortfolioContext);
+  const { img } = hyolo;
   return (
     <section id="hyolo">
       <Container>
@@ -37,9 +39,11 @@ const Hyolo = () => {
                               scrollbar={{ draggable: true }}
                          >
                                 <SwiperSlide>
-                                     <div id="slide1">
-                                          <p><img src={imgfile} class="hyolo-img" /></p>
-                                          <div class="img-text">
+                <div id="slide1">
+                <div className="hyolo-img">
+                    <SwiperImg alt="img" filename={img} />
+                    </div>
+                                          <div className="img-text">
                                                <p>캘린더 선택창은 Datepicker를 사용하여 구현 하였습니다.</p>
                                         
                                                <p>검색 기능은 POST 방식으로 form을 전달하여 검색기능을 구현하였습니다.

@@ -23,6 +23,14 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
+
+// HYOLO DATA
+export const hyoloData = {
+  img: 'main1.jpg',
+
+
+};
+
 // PROJECTS DATA
 export const projectsData = [
   {
