@@ -2,7 +2,7 @@ nav {
   position: fixed !important;
   width: 100%;
   height: 50px;
-  background: blue;
+
   color: white;
   text-align: center;
   top: 0;
@@ -21,4 +21,14 @@ nav {
   width: 35%;
   margin: 0 auto !important;
   justify-content: space-between;
+}
+#basic-navbar-nav > div > a:nth-child(3) {
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+#basic-navbar-nav > div > a:nth-child(3):hover {
+  cursor: pointer;
 }

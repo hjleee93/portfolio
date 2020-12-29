@@ -53,13 +53,6 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '제 포트폴리오를 끝까지 봐주셔서 감사합니다😀',
-  btn: '',
-  email: 'hjleee93@gmail.com',
-};
-
 // FOOTER DATA
 export const footerData = {
   networks: [

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -50,14 +51,12 @@ const Projects = () => {
                         <p className="mb-4">{info2 || ''}</p>
                         <p className="mb-4">{info3 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        DETAIL
-                      </a>
+
+                      <span className="cta-btn cta-btn--hero">
+                        <Link to="hyolo" smooth duration={1000}>
+                          Detail
+                        </Link>
+                      </span>
 
                       {repo && (
                         <a
