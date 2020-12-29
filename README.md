@@ -5,9 +5,9 @@
 과정은 블로그에 업로드 되고 있습니다. <br>
 <a href="https://hjleee93.github.io/">HyeonLog</a>
 
-포트폴리오 배포가 완료되었습니다:)
-상세페이지는 현재 구현 진행중입니다.(20/12/29)
-<a hred="https://hyeonlog.com/">포트폴리오 사이트 바로가기</a>
+포트폴리오 배포가 완료되었습니다:)<br>
+상세페이지는 현재 구현 진행중입니다.(20/12/29)<br>
+<a href="https://hyeonlog.com/">포트폴리오 사이트 바로가기</a>
 
 
 <br>
