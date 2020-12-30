@@ -47,7 +47,7 @@ export const projectsData = [
     info5: 'Code Review를 클릭하시면 코드 설명 프레젠테이션으로 연결됩니다.',
     url: 'http://rclass.iptime.org:9999/20AM_HYOLO/',
     repo: 'https://github.com/hjleee93/semiProject',
-    code: '',
+    code: 'https://docs.google.com/presentation/d/1PAaD26nIoDAU1aBvsaeWAy1aXoAmd8Q9vtH3aD66VVo/edit?usp=sharing',
     comp: 'Hyolo'//컴포넌트 연결용
   },
   {
@@ -64,7 +64,7 @@ export const projectsData = [
     info5: 'Code Review를 클릭하시면 코드 설명 프레젠테이션으로 연결됩니다.',
     url: 'http://rclass.iptime.org:9999/20AM_ITJOBGO_BOOT_FINAL/',
     repo: 'https://github.com/hjleee93/FinalProject_Front',
-    code: '',
+    code: 'https://docs.google.com/presentation/d/1VI0hg8xGqCtPFpINsNNzb_Z1pXOae9J9Jii1nKgFAZo/edit?usp=sharing',
     comp: 'Itjobgo'
   },
 ];
