@@ -43,8 +43,12 @@ export const projectsData = [
       '일반회원은 원하는 지역, 날짜, 키워드로 검색하여 바로 예약 할 수 있는 예약관리사이트입니다.',
     info2: '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다. ',
     info3: 'Source Code버튼 클릭시 해당 깃헙으로 연결됩니다',
+    info4: 'DETAIL 버튼을 누르시면 화면 구현이미지와 설명을 확인하실 수 있습니다.',
+    info5: 'Code Review를 클릭하시면 코드 설명 프레젠테이션으로 연결됩니다.',
     url: 'http://rclass.iptime.org:9999/20AM_HYOLO/',
     repo: 'https://github.com/hjleee93/semiProject',
+    code: '',
+    comp: 'Hyolo'//컴포넌트 연결용
   },
   {
     id: nanoid(),
@@ -56,8 +60,12 @@ export const projectsData = [
     info2:
       '이미지를 클릭하면 LIVE DEMO 사이트를 확인 하 실 수 있습니다. (배포용 사이트는 현재 수정중입니다.)',
     info3: 'Source Code버튼 클릭시 해당 깃헙으로 연결됩니다',
+    info4: 'DETAIL 버튼을 누르시면 화면 구현이미지와 설명을 확인하실 수 있습니다.',
+    info5: 'Code Review를 클릭하시면 코드 설명 프레젠테이션으로 연결됩니다.',
     url: 'http://rclass.iptime.org:9999/20AM_ITJOBGO_BOOT_FINAL/',
     repo: 'https://github.com/hjleee93/FinalProject_Front',
+    code: '',
+    comp: 'Itjobgo'
   },
 ];
 

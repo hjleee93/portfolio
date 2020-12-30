@@ -16,14 +16,14 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const Hyolo = () => {
+const Itjobgo = () => {
     
   const { hyolo } = useContext(PortfolioContext);
   const { img } = hyolo;
   return (
-    <section id="hyolo">
+    <section id="Itjobgo">
       
-                 <Title title="HYOLO" />
+                 <Title title="Itjobgo" />
                  <Fade bottom duration={1000} delay={1200} distance="0px">
                  <p>핫플레이스 예약 관리 사이트</p>
                  <p>JSP/Servlet을 기반으로 전반적인 웹사이트의 서버 연결과 View를 개발하였고 일부 비동기 통신이 필요한 파트는 Ajax를 사용하여 구현하였습니다.<br/>
@@ -65,4 +65,4 @@ const Hyolo = () => {
   );
 };
 
-export default Hyolo;
+export default Itjobgo;

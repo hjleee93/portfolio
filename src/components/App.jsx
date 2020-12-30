@@ -31,7 +31,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Hyolo />
+
 
       <Footer />
     </PortfolioProvider>
