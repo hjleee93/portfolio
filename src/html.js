@@ -20,6 +20,7 @@ export default function HTML({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
+        <meta name="google-site-verification" content="tNI6WVm9OyxcGQVBT3CgLdTly4qgWh1R_ZRBSrn1RVk" />
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}
