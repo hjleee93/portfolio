@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: '안녕하세요. 신입 웹 개발자 이현정입니다.',
 };
 
 // HERO DATA
