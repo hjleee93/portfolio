@@ -14,7 +14,7 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'HyeonLog Portfolio'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'HyeonLog Portfolio123'} />
+        <meta name="description" content={description || '안녕하세요. 신입 웹 개발자 이현정입니다.'} />
       </Helmet>
       <App />
     </>
