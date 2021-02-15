@@ -22,6 +22,7 @@ export default function HTML({
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
         <meta name="google-site-verification" content="tNI6WVm9OyxcGQVBT3CgLdTly4qgWh1R_ZRBSrn1RVk" />
+        <meta name="description" content="안녕하세요. 신입 웹 개발자 이현정입니다.">
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}
