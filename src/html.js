@@ -23,6 +23,7 @@ export default function HTML({
         <meta name="title" content="현로그, HYEONLOG">
         {headComponents}
         <meta name="google-site-verification" content="tNI6WVm9OyxcGQVBT3CgLdTly4qgWh1R_ZRBSrn1RVk" />
+        <meta name="naver-site-verification" content="acfbd608ac455fcd55f0141d749b88ec6d3d34e6" />
         <meta name="description" content="안녕하세요. 신입 웹 개발자 이현정입니다."/>
       </head>
       <body {...bodyAttributes}>
