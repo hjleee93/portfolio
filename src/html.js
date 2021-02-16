@@ -20,7 +20,7 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="title" content="현로그, HYEONLOG">
+        <meta name="title" content="현로그, HYEONLOG"/>
         {headComponents}
         <meta name="google-site-verification" content="tNI6WVm9OyxcGQVBT3CgLdTly4qgWh1R_ZRBSrn1RVk" />
         <meta name="naver-site-verification" content="acfbd608ac455fcd55f0141d749b88ec6d3d34e6" />
