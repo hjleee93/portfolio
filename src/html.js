@@ -16,7 +16,7 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
-        <title>현로그</title>
+        <title>HYEONLOG</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -24,7 +24,7 @@ export default function HTML({
         {headComponents}
         <meta name="google-site-verification" content="tNI6WVm9OyxcGQVBT3CgLdTly4qgWh1R_ZRBSrn1RVk" />
         <meta name="naver-site-verification" content="acfbd608ac455fcd55f0141d749b88ec6d3d34e6" />
-        <meta name="description" content="안녕하세요. 신입 웹 개발자 이현정입니다."/>
+        <meta name="description" content="안녕하세요 신입 웹 개발자 이현정의 포트폴리오입니다. 검색 최적화 진행중입니다."/>
         <meta property="og:description" content="포트폴리오 검색 최적화 진행중입니다.">
       </head>
       <body {...bodyAttributes}>
